@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>SchoolMaster - Calendar</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/calendar.js"></script>
+</head>
+
+<body>
+    <nav id="navbar"></nav>
+    <main>
+        <section class="container">
+            <h2>Calendar</h2>
+            <div class="calendar-controls">
+                <button class="calendar-prev" title="Previous month">&lt;</button>
+                <span class="calendar-month"></span>
+                <button class="calendar-next" title="Next month">&gt;</button>
+            </div>
+            <table class="calendar-table">
+                <thead>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-table-body">
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

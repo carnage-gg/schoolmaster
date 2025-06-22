@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>SchoolMaster - Assignments</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/assignments.js"></script>
+</head>
+
+<body>
+    <canvas id="bg-anim"></canvas>
+    <nav id="navbar"></nav>
+    <main>
+        <section class="container fade-in">
+            <h2>Assignments Tracker</h2>
+            <form id="assignment-form">
+                <input type="text" id="asm-name" placeholder="Assignment name" required />
+                <input type="date" id="asm-date" required />
+                <button>Add</button>
+            </form>
+            <ul id="assignments-list"></ul>
+        </section>
+    </main>
+</body>
+
+</html>
