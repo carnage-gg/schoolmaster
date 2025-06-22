@@ -1,14 +1,14 @@
 const nav = document.getElementById('navbar');
 if (nav) {
     const links = [
-        { href: 'index.html', label: 'Home' },
-        { href: 'pages/study-links.html', label: 'Study Links' },
-        { href: 'pages/assignments.html', label: 'Assignments' },
-        { href: 'pages/calendar.html', label: 'Calendar' },
-        { href: 'pages/notes.html', label: 'Notes' },
-        { href: 'pages/timetable.html', label: 'Timetable' },
-        { href: 'pages/timer.html', label: 'Timer' },
-        { href: 'pages/grades.html', label: 'Grades' }
+        { href: '../index.html', label: 'Home' },
+        { href: 'study-links.html', label: 'Study Links' },
+        { href: 'assignments.html', label: 'Assignments' },
+        { href: 'calendar.html', label: 'Calendar' },
+        { href: 'notes.html', label: 'Notes' },
+        { href: 'timetable.html', label: 'Timetable' },
+        { href: 'timer.html', label: 'Timer' },
+        { href: 'grades.html', label: 'Grades' }
     ];
     let cur = window.location.pathname.split('/').pop();
     nav.innerHTML = links.map(l =>
